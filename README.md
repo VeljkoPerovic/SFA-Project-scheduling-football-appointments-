@@ -1,11 +1,11 @@
 ﻿# SFA-Project-scheduling-football-appointments-
 
-U htdocs fajlu napravite folder football u koji cete ubaciti foldere projekta,
-nakon toga u XAMPP-u u httpd.conf fajlu promenite putanje DocumentRoot-u, postavite ih na:
+In the htdocs file, create a football directory in which you will insert the project folders,
+after that in XAMPP in the httpd.conf file change the paths to DocumentRoot, set them to:
 
 DocumentRoot "C:/xampp/htdocs/football/"
 <Directory "C:/xampp/htdocs/football/">
 
-Takodje se u prilozenom projetku nalazi i dump SQL baze gde ce se cuvati USER i zakazni Termini.
+The attached project also contains a dump of the SQL database where the USER and scheduled appointments will be stored.
 
-Znam da je dizajn losije odradjen ali trudicu se da radim update konstantno gde cu promeniti i dizajn ovog puta mi je fokus bio na funkcionalnosti.
+This time I tried harder for the Back-End part of the site, so the Front was a little behind, my goal was to make the functionality of scheduling appointments and the AdminPanel.
